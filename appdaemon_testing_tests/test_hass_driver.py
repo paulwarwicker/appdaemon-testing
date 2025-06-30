@@ -4,7 +4,7 @@ import appdaemon.plugins.hass.hassapi as hass
 import pytest
 
 from appdaemon_testing import HassDriver
-from appdaemon_testing.pytest import automation_fixture
+from appdaemon_testing.pytest_plugin import automation_fixture
 
 
 def test_get_state(hass_driver):
